@@ -88,8 +88,6 @@ class App extends Component {
         <br/> Top Score: {this.state.topScore}
         </h3>
         </div>
-        
-  
         <div className="container">
           <div className="row">
             {this.state.cardImage.map(image => (

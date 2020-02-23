@@ -2,9 +2,9 @@
     width: 100%;
     text-align: center;
     font-size: 3rem;
-    color: black;
+    color: white;
     font-weight: bold;
     margin-bottom: 50px;
-    background-image: url(/images/paw.jpg);
-    background-size: contain;
+    background-color: black;;
+    font-family: 'Righteous' ;
   }

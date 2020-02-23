@@ -1,6 +1,11 @@
 .cat-image {
     margin-bottom: 20px;
+   
     
+}
+img {
+    border: 2px solid white;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
 }
 
 .zoom {
@@ -10,6 +15,11 @@
   .zoom:hover {
     transform: scale(1.1);
   }
+
+.img-container {
+    background-color: black;
+    margin-top: 40px;
+}
 
 
 

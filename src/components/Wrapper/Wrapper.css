@@ -8,9 +8,18 @@
     justify-content: space-around;
     align-content: flex-start;
     overflow: auto;
+    background-color: black;
+    color: white;
+    
     
   }
   
  .container {
      text-align: center;
+     
  }
+
+ .score-container {
+    font-family: 'Righteous' ;
+ }
+
