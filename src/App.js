@@ -3,6 +3,8 @@ import ImageCard from "./components/ImageCard";
 import Title from "./components/Title";
 import Wrapper from "./components/Wrapper";
 import cardImage from "./cardImage.json";
+import "./index.css";
+import "./App.css";
 
 
 let correctGuesses = 0;
@@ -43,7 +45,7 @@ class App extends Component {
     }
   
     //For images they haven't clicked, but there's still one card left
-    else if (correctGuesses <= 11){
+    else if (correctGuesses < 11){
       clickedImage[0].clicked = true;
       correctGuesses++;
 
@@ -79,11 +81,14 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Kitty Cat Clicky Game</Title>
+        <Title>Kitty Cat Clicky App</Title>
         <h2 className="headerMessage">{this.state.updateMessage}</h2>
+        <div className="container score-container">
         <h3>Correct Guesses: {this.state.correctGuesses}
         <br/> Top Score: {this.state.topScore}
         </h3>
+        </div>
+        
   
         <div className="container">
           <div className="row">
