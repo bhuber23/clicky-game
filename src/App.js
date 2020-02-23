@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import ImageCard from "./components/ImageCard";
 import Title from "./components/Title";
 import Wrapper from "./components/Wrapper";
-import cardImage from "./cardImages.json";
+import cardImage from "./cardImage.json";
+
 
 let correctGuesses = 0;
 let topScore = 0;
@@ -75,7 +76,35 @@ class App extends Component {
 
   };
 
+  render() {
+    return (
+      <Wrapper>
+        <Title>Kitty Cat Clicky Game</Title>
+        <h2 className="headerMessage">{this.state.updateMessage}</h2>
+        <h3>Correct Guesses: {this.state.correctGuesses}
+        <br/> Top Score: {this.state.topScore}
+        </h3>
+  
+        <div className="container">
+          <div className="row">
+            {this.state.cardImage.map(image => (
+              <ImageCard 
+                  updateClicked={this.updateClicked}
+                  id={image.id}
+                  key={image.id}
+                  image={image.image}
+              />
+            ))}
+          </div>
+        </div>
+      </Wrapper>
+    );
+  }
+
+
 }
+
+
 
 
 export default App;
