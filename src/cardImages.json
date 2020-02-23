@@ -1,0 +1,62 @@
+[{
+    "id": 1,
+    "image": "./images/abysinnian.jpeg",
+    "clicked": false
+},
+{
+    "id": 2,
+    "image": "./images/american-curl.jpeg",
+    "clicked": false
+},
+{
+    "id": 3,
+    "image": "./images/bengal.jpeg",
+    "clicked": false
+},
+{
+    "id": 4,
+    "image": "./images/british-shorthair.jpeg",
+    "clicked": false
+},
+{
+    "id": 5,
+    "image": "./images/maine-coon.jpeg",
+    "clicked": false
+},
+{
+    "id": 6,
+    "image": "./images/mintandbug.jpg",
+    "clicked": false
+},
+{
+    "id": 7,
+    "image": "./images/ragdoll.jpeg",
+    "clicked": false
+},
+{
+    "id": 8,
+    "image": "./images/russian-blue.jpeg",
+    "clicked": false
+},
+{
+    "id": 9,
+    "image": "./images/savannah.jpeg",
+    "clicked": false
+},
+{
+    "id": 10,
+    "image": "./images/scottish.jpeg",
+    "clicked": false
+},
+{
+    "id": 11,
+    "image": "./images/siamese.jpeg",
+    "clicked": false
+},
+{
+    "id": 12,
+    "image": "./images/toyger.jpeg",
+    "clicked": false
+}
+
+]
