@@ -20,6 +20,7 @@ class App extends Component {
     updateMessage
   };
 
+  //To randomize the images
   randomizeImages = cardImage => {
     cardImage.sort((a, b) => {
       return 0.5 - Math.random();
@@ -37,7 +38,7 @@ class App extends Component {
       updateMessage = "Sorry! You already clicked that one. Try again."
       this.randomizeImages(cardImage);
 
-      cardImage.forEach(image => cardImage.clicked = false);
+      cardImage.map(image => image.clicked = false);
 
       this.setState({updateMessage});
       this.setState({correctGuesses});
