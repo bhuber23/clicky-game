@@ -69,7 +69,7 @@ class App extends Component {
       topScore = 12;
       this.setState({topScore});
 
-      cardImage.forEach(image => cardImage.clicked = false);
+      cardImage.map(image => image.clicked = false);
       this.randomizeImages(cardImage);
       this.setState({updateMessage});
       this.setState({correctGuesses});
